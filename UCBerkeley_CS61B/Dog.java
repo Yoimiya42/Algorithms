@@ -5,6 +5,10 @@ public class Dog {
     {
         weight = w;
     }
+    public static void main(String[] args) {
+        Dog d1 = new Dog(15);
+        d1.
+    }
 
     public void makeNoise() {
         if (weight < 10) {
@@ -19,7 +23,8 @@ public class Dog {
     public static void method1() {
         System.out.println("static method should be called by class name.");
     }
-
+    d1.method1(); // static method should be called by class name.  
+    Dog.method1(); // static method should be called by class name.
     public static Dog maxDog(Dog d1, Dog d2) {
         if (d1.weight > d2.weight) {
             return d1;
