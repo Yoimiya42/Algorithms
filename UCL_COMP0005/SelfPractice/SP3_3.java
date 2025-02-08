@@ -1,4 +1,4 @@
-public class Self2Ex3 {
+public class SP3_3 {
     public static void main(String[] args){
 
     }
