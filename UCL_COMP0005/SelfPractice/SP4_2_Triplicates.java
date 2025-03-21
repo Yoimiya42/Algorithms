@@ -8,7 +8,7 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 
-public class SP4_2 {
+public class SP4_2_Triplicates {
 
     public static void main(String[] args){
         String strs1[] = {"legacy", "tally", "exhaust", "propagate"};

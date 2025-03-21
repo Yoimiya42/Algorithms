@@ -14,11 +14,11 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-public class TALab3_1
+public class TALab3_1_GroupAnagrams
 {
     public static void main(String[] args)
     {   
-        TALab3_1 lab3_1 = new TALab3_1();
+        TALab3_1_GroupAnagrams lab3_1 = new TALab3_1_GroupAnagrams();
         String[] words = {"eat", "tea", "part", "ate", "trap", "pass"};
         ArrayList<ArrayList<String>> result = lab3_1.groupAnagrams(words);
         result.sort((a, b) -> Integer.compare(b.size(), a.size()));

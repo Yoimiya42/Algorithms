@@ -6,7 +6,7 @@
 
  import java.util.Random;
 
-public class SP4_3 {
+public class SP4_3_CommonPoint {
     public static void main(String[] args){
 
         int pointsNum = 420;

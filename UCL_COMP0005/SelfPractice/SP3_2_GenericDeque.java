@@ -1,5 +1,5 @@
 
-public class SP3_2 {
+public class SP3_2_GenericDeque {
 
     public static void main(String[] args) {
         Deque<Integer> dq = new Deque<>();

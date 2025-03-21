@@ -5,7 +5,7 @@
 import java.util.Arrays;
 import java.util.Stack;
 
-public class SP4_1 {
+public class SP4_1_EqualPermutation {
     public static void main(String[] args){
         int arr1[] = {14,24,42,11,9,64};
         int arr2[] = {42,64,14,11,24,9};

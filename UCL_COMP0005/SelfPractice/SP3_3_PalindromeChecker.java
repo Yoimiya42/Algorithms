@@ -1,4 +1,4 @@
-public class SP3_3 {
+public class SP3_3_PalindromeChecker {
     public static void main(String[] args){
 
     }
