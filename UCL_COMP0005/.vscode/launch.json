@@ -1,7 +1,20 @@
 {
   "version": "0.2.0",
   "configurations": [
-    
+    {
+      "type": "java",
+      "name": "KMP",
+      "request": "launch",
+      "mainClass": "temp.KMP",
+      "projectName": "UCL_COMP0005_1e56fdee"
+    },
+    {
+      "type": "java",
+      "name": "KMP",
+      "request": "launch",
+      "mainClass": "KMP",
+      "projectName": "UCL_COMP0005_1e56fdee"
+    },
     {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
@@ -10,7 +23,7 @@
       "stopAtEntry": false,
       "externalConsole": true,
       "cwd": "d:/__Algorithm__/UCL_COMP0005",
-      "program": "d:/__Algorithm__/UCL_COMP0005/build/Debug/outDebug",
+      "program": "d:/__Algorithm__/UCL_COMP0005/a.exe",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
