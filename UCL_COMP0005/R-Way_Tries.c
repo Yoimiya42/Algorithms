@@ -81,3 +81,4 @@ Node* searchRec(Node* node, char *key, int d)
     char c = *(key + d);
     return searchRec(node->children[c], key, d + 1);
 }
+

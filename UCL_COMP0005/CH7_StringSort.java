@@ -10,13 +10,14 @@ public class CH7_StringSort {
 
         // Least Significant Digit First (LSD) sorting
         // Sort by each character from right to left
+        // Prerequisite: All strings have the same length
         for(int digit = stringLength - 1; digit >= 0; digit--)
         {
-            int[] count = new int[alphabetSize + 1];
+            int[] count = new int[alphabetSize + 1];//257
 
             // 1. Compute frequency of each character
             for(int i = 0; i < arrayLength; i++)
-                count[strings[i].charAt(digit) + 1]++;
+                count[strings[i].charAt(digit) + 1]++; 
             
             // 2. Transform counts to partition(ranks) indices
             for (int r = 0; r < alphabetSize; r++)
@@ -31,21 +32,28 @@ public class CH7_StringSort {
         }
     }
 
+
+    private int charAt(String str, int digit){
+        if (digit < str.length())
+            return str.charAt(digit);
+        else
+            return -1;
+    }
+
     public void MSD(String[] strings) {
         int N = strings.length;
         aux = new String[N];
         MSD(strings, 0, N-1, 0);
     }
-
+    
     public void MSD(String[] strings, int lo, int hi, int d){
         if(lo >= hi) return; // Base case: if the array is empty or has one element
         int count[] = new int[R + 2]; // Initialize count array for each character
 
         // 1. Key-indexed counting
-
         // Compute frequency of each character
         for(int i = lo; i <= hi; i++)
-            count[strings[i].charAt(d) + 2]++;
+            count[charAt(strings[i], d) + 2]++;
 
         // Transform counts to indices
         for(int r = 0; r < R + 1; r++)
@@ -53,8 +61,8 @@ public class CH7_StringSort {
 
         // Distribute the strings into the auxiliary array
         for(int i = lo; i <= hi; i++)
-            aux[count[strings[i].charAt(d) + 1]++] = strings[i]; 
-        
+            aux[count[charAt(strings[i], d) + 1]++] = strings[i];
+
         // Copy back to the original array
         for(int i = lo; i <= hi; i++)
             strings[i] = aux[i - lo]; // Adjust index based on the count array

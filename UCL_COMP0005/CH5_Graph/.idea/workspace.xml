@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a35797ef-1ecc-449f-b608-dad64b0c809a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Graph/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12.1_R-Way_Tries.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12.2_TernarySearchTrie.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GraphInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5.1HashTable/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5.1HashTable/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5.1HashTable/src/HashTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5.1HashTable/src/LinearProbingHashTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5.1HashTable/src/RedBlackBST.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5.1HashTable/src/SeparateChainingHashTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SortReview.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../a.exe" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="31zDTOkdXKWMnBBpSGgi8aazhZE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BellmanFord.executor": "Run",
+    "Application.Dijkstra.executor": "Run",
+    "Application.EdgeWeightedDAG.executor": "Run",
+    "Application.MinimumSpanningTree.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Java",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Graph" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.BellmanFord">
+    <configuration name="BellmanFord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ShortestPath.BellmanFord" />
+      <module name="12_Graph" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Dijkstra" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ShortestPath.Dijkstra" />
+      <module name="12_Graph" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EdgeWeightedDAG" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ShortestPath.EdgeWeightedDAG" />
+      <module name="12_Graph" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinimumSpanningTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MinimumSpanningTree.MinimumSpanningTree" />
+      <module name="12_Graph" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BellmanFord" />
+        <item itemvalue="Application.EdgeWeightedDAG" />
+        <item itemvalue="Application.Dijkstra" />
+        <item itemvalue="Application.MinimumSpanningTree" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.24978.46" />
+        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-IU-243.24978.46" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a35797ef-1ecc-449f-b608-dad64b0c809a" name="Changes" comment="" />
+      <created>1756518016219</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1756518016219</updated>
+      <workItem from="1756518017470" duration="11877000" />
+      <workItem from="1756561498243" duration="47205000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/TopologicalSort.java</url>
+          <line>28</line>
+          <properties class="TopologicalSort" method="dfs">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/EdgeWeightedDAG.java</url>
+          <line>49</line>
+          <properties class="EdgeWeightedDAG" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

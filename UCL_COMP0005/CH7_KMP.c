@@ -25,6 +25,7 @@ void buildDFA(char *text, char *pattern)
     }
 }
 
+
 int main()
 {
     char text[] = "BCBAABACAABABACAA";

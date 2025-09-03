@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Ex1_LongestCommonPrefix",
+      "request": "launch",
+      "mainClass": "SelfPractice.SP9.src.Ex1_LongestCommonPrefix",
+      "projectName": "UCL_COMP0005_1e56fdee"
+    },
+    {
+      "type": "java",
       "name": "KMP",
       "request": "launch",
       "mainClass": "temp.KMP",
