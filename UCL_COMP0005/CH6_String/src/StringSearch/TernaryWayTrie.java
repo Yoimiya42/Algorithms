@@ -32,17 +32,14 @@ public class TernaryWayTrie<V> implements SymbolTable<String, V> {
 		if (node == null)
 			node = new Node<>(ch);
 
-		if (digit == key.length() - 1){
-			node.value = value;
-			return node;
-		}
-
 		if (ch < node.c)
 			node.left = put(node.left, key, value, digit);
 		else if (ch > node.c)
 			node.right = put(node.right, key, value, digit);
-		else
+		else if (digit < key.length() - 1)
 			node.middle = put(node.middle, key, value, digit + 1);
+		else
+			node.value = value;
 
 		return node;
 	}
@@ -71,7 +68,7 @@ public class TernaryWayTrie<V> implements SymbolTable<String, V> {
 
 	@Override
 	public Set<String> keySet() {
-		Set<String> set = new HashSet<String>();
+		Set<String> set = new HashSet<>();
 		collect(root, set, new StringBuilder());
 		return set;
 	}
@@ -89,7 +86,6 @@ public class TernaryWayTrie<V> implements SymbolTable<String, V> {
 
 		collect(node.right, set, prefix);
 	}
-
 
 	@Override
 	public Set<String> keysWithPrefix(String prefix) {
